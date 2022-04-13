@@ -79,3 +79,20 @@ a {
     font-family: 'Lato', sans-serif;
     font-size: 15px;
 }
+
+.event-details {
+    width: inherit;
+    margin-top: 15px;
+    font-family: 'Lato', sans-serif;
+    padding: 15px 15px;
+    line-height: 5px;
+}
+
+.date {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.location {
+    font-size: 16px;
+}
