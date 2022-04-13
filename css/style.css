@@ -1,0 +1,48 @@
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.ribbon,
+.navbar {
+    display: none;
+}
+
+.mobile-nav-item {
+    position: fixed;
+    top: 0;
+    padding: 15px 15px;
+} 
+
+.fa-bars {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.close-menu-icon {
+    display: none;
+}
+
+.headline-section {
+    width: 100%;
+    height: inherit;
+}
