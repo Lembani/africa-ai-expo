@@ -96,3 +96,69 @@ a {
 .location {
     font-size: 16px;
 }
+
+.program-section {
+    background-image: url('../images/repeat-bg.png');
+    background-repeat: repeat;
+    padding-top: 10px;
+}
+
+.program-heading {
+    text-align: center;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+.program-line {
+    width: 40px;
+    background-color: #ec5242;
+    height: 3px;
+    border: 0;
+}
+
+.program-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px 10px;
+}
+
+.program-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+    padding: 10px 15px;
+    background: #d3d3d32d;
+}
+
+.program-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.title {
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+}
+
+.program-description {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    padding-left: 4px;
+}
+
+.invite-btn {
+    background-color: #ec5242;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 0;
+    text-align: center;
+    color: #fff;
+    width: 60%;
+    height: 80px;
+}
