@@ -16,10 +16,10 @@
 <body>
     <header class="header">
         <nav class="nav">
-            <li class="mobile-nav-item menu">
-                <i class="mobile-nav-item menu fa fa-bars fa-xl"></i>
+            <div class="mobile-nav-item menu">
+                <i class="menu-icon fa fa-bars fa-xl"></i>
                 <i class="close-menu-icon fa-solid fa-xmark fa-xl"></i>
-            </li>
+            </div>
             <ul class="ribbon">
                 <li class="ribbon-item"><a href="#" class="ribbon-link"><i class="fa-brands fa-facebook fa-xl"></i></a></li>
                 <li class="ribbon-item"><a href="#" class="ribbon-link"><i class="fa-brands fa-twitter fa-xl"></i></a></li>
@@ -35,7 +35,18 @@
                     <li class="nav-item"><a href="#" class="nav-link">Join</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Sponsor</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">News</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link"></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link camp">AI Campaign</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu">
+                <ul class="mobile-nav-items">
+                    <li class="nav-item"><a href="./index.html" class="nav-link" id="home-link"></a></li>
+                    <li class="nav-item"><a href="./about.html" class="nav-link" id="about-link">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" id="program-link">Program</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" id="join-link">Join</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" id="sponsor-link">Sponsor</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" id="news-link">News</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" id="campaign-link"></a></li>
                 </ul>
             </div>
         </nav>    
@@ -75,42 +86,51 @@
             </div>
             <div class="program-item">
                 <img src="./images/program3.png" alt="Lecture" class="program-icon">
-                <h4 class="title">Lecture</h4>
+                <h4 class="title">Connect</h4>
                 <p class="program-description">Lorem ipsum dolor sit amet consectetur.</p>
             </div>
             <div class="program-item">
                 <img src="./images/program4.png" alt="Lecture" class="program-icon">
-                <h4 class="title">Lecture</h4>
+                <h4 class="title">Workshop</h4>
                 <p class="program-description">Lorem ipsum dolor sit amet consectetur.</p>
             </div>
             <div class="program-item">
                 <img src="./images/program5.png" alt="Lecture" class="program-icon">
-                <h4 class="title">Lecture</h4>
+                <h4 class="title">Repeat</h4>
                 <p class="program-description">Lorem ipsum dolor sit amet consectetur.</p>
             </div>
-            <button class="invite-btn">Attend the Expo 2022</button>
         </div>
+        <button class="invite-btn">Attend the Expo 2022</button>
+        <a href="#" class="see-program">VIEW FULL SCHEDULE</a>
+    </section>
+    <section class="speakers-section" id="speakers">
+        <h2 class="speakers-heading">AI Pioneers</h2>
+        <hr class="speakers-line">
+        <div class="speakers-container"></div>
+        <button class="more-btn">MORE <i class="fa-solid fa-angle-down fa-lg"></i></button>
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
+    <section class="sponsors-section" id="sponsor">
+        <h2 class="sponsors-heading">Event Sponsors</h2>
+        <hr class="sponsors-line">
+        <div class="sponsors-container">
+            <img src="./images/palnet.png" alt="Palnet Solutions" class="sponsor-img">
+            <img src="./images/zedtutors.png" alt="Zed Tutors" class="sponsor-img">
+            <img src="./images/itechlogodark.png" alt="iTech Club" class="sponsor-img">
+            <img src="./images/zictlogo.png" alt="ZICT College" class="sponsor-img">
+            <img src="./images/hackclub.png" alt="Hack Club" class="sponsor-img">
+        </div>
+    </section>
+    <section class="footer-section" id="footer">
+        <img src="./images/logo.png" alt="Africa AI Expo logo" class="footer-img">
+        <p class="footer-rights">
+            <span class="copyright"></span>
+            <br>
+            <span class="license">Africa AI Expo aims at showcasing some of the artificial intelligence projects in the continent 
+                that positively impact people's lives and improve the continents competitiveness in the world market market.</span>
+        </p>
+    </section>
+<script src="./js/main.js"></script>
+<script src="./js/speakers.js"></script>
 </body>
 </html>
