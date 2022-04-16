@@ -74,6 +74,17 @@ a:hover {
   padding: 15px 15px;
 }
 
+.mobile-nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-family: 'Cocogoose', sans-serif;
+}
+
+.mobile-nav-link:hover {
+  color: #272a31;
+}
+
 .nav-link {
   text-decoration: none;
   color: #fff;
