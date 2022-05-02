@@ -4,6 +4,9 @@
 
 > This is the first capstone project from microverse. I chose to make it about an AI Expo in Africa that aims at showcasing some of the artificial intelligence projects in the continent that positively impact people's lives and improve the continents competitiveness in the world market market.
 
+<img width="1440" alt="africa-ai-expo" src="https://user-images.githubusercontent.com/30483991/166239040-db789bfd-6f43-4695-ba09-20c4a36ad147.png">
+
+
 ## Built With
 
 - HTML
